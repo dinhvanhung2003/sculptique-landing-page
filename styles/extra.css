@@ -1,0 +1,7 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: Georgia, "Times New Roman", serif;
+}
