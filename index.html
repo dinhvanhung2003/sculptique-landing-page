@@ -1,25 +1,28 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sculptique Clone</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./styles/extra.css" />
-  </head>
+<body class="bg-white text-zinc-900">
+  <div id="slot-01"></div> <!-- brand header -->
+  <div id="slot-02"></div> <!-- hero -->
 
-  <body class="bg-white text-zinc-900">
-    <!-- Header -->
-    <div id="slot-hero"></div>
-
-    <!-- Phần tiếp theo (gallery + stats + bundle) -->
-    <section class="mx-auto max-w-6xl px-4 pb-16">
-      <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start">
-        <div id="slot-left"></div>
-        <div id="slot-right"></div>
+  <section class="mx-auto max-w-6xl px-4 pb-16">
+    <div class="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start">
+      <div id="slot-03"></div> <!-- left gallery + stats -->
+      <div>
+        <div id="slot-04"></div> <!-- bundle selector -->
+        <div class="mt-6" id="slot-05"></div> <!-- review card + mini accordions -->
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script src="./js/include.js"></script>
-  </body>
-</html>
+  <div id="slot-06"></div> <!-- as seen in -->
+  <div id="slot-07"></div> <!-- connected cards -->
+  <div id="slot-08"></div> <!-- hidden drainage system -->
+  <div id="slot-09"></div> <!-- why nothing worked -->
+  <div id="slot-10"></div> <!-- 3 ingredient system -->
+  <div id="slot-11"></div> <!-- testimonials list -->
+  <div id="slot-12"></div> <!-- trust icons -->
+  <div id="slot-13"></div> <!-- expert advice -->
+  <div id="slot-14"></div> <!-- faq -->
+  <div id="slot-15"></div> <!-- footer -->
+
+  <script src="./js/include.js"></script>
+  <script src="./js/ui.js"></script> <!-- optional -->
+</body>
